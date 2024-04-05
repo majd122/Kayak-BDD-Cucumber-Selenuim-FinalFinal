@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 "timeline:target/test-output-thread/"
         },
-        tags="@smoke",
+       //tags="@run",
         dryRun = false
 )
 public class TestRunner {

@@ -37,6 +37,23 @@ public class MainPage {
 
     @FindBy(xpath = "//li[@class='FyHn-item FyHn-agoda']")
     WebElement listOfElements;
+
+
+    @FindBy(xpath = "//div[@class='Iqt3-button-content' and .='Sign in']")
+    WebElement signInBox;
+    @FindBy(xpath = "//div[@class='dJtn dJtn-expanded dJtn-mod-variant-accordion'and .='Sign in']")
+    WebElement signInSection;
+
+
+
+    @FindBy(xpath = "//div[@class='Iqt3-button-content' and .='Continue with email']")
+    WebElement continueWithEmailButton;
+    @FindBy(xpath = "//div[@class='social-button-short-text' and .='Google']")
+    WebElement googleButton;
+
+@FindBy(xpath = "//div[@class='social-button-short-text' and .='Apple']")
+WebElement appleButton;
+
     //================================== > Methods < ===========================
 
 
@@ -57,6 +74,7 @@ public class MainPage {
     public void scrollToBookingElement() {
         logger.info("scroll down to the end of the web page ");
         SeleniumUtils.scrollToElementUsingJavaScriptExecutor(bookingEle);
+
     }
     /**
      * this is for booking if is displayed or not
@@ -112,6 +130,28 @@ public class MainPage {
             }
         }
         return false;
+    }
+    public void clickTOSignIn() {
+        signInBox.click();
+        SeleniumUtils.waitForElementToBeSelected(continueWithEmailButton);
+    }
+    public void clickToSignInFromTheSection(){
+            signInSection.click();
+            SeleniumUtils.switchToNewWindow();
+        }
+
+    public String getContinueWithEmailSignIn(){
+        logger.info("getting the text for Continue with email  ");
+       return continueWithEmailButton.getText();
+
+    }
+    public String getGoogleSignIn() {
+        logger.info("Getting the text for Google");
+        return googleButton.getText();
+    }
+    public String getAppleSignIn() {
+        logger.info("getting the text for apple ");
+        return appleButton.getText();
     }
 
 }

@@ -25,20 +25,4 @@ MainPage mainPage = new MainPage();
         Assert.assertTrue(mainPage.isMainLogoDisplayed());
 
     }
-
-    @When("User scroll down to the bottom of the page")
-    public void user_scroll_down_to_the_bottom_of_the_page() {
-//mainPage.scrollDown();
-
-    }
-
-    @Then("User is able to verify the list of logos")
-    public void user_is_able_to_verify_the_list_of_logos(List<Map<String,String>> listOfLabels) {
-       // for ()
-
-    }
-
-
-
-
 }
