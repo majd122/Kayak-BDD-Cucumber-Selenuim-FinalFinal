@@ -1,0 +1,7 @@
+2024-04-04T23:18:41,636 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-04T23:18:41,643 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-04T23:18:41,644 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T23:18:41,644 [main] INFO  (Driver.java:34) - Starting a firefox browser
+2024-04-04T23:18:57,448 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-04T23:18:57,449 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-04T23:18:59,931 [main] INFO  (MainPage.java:49) - Checking if the Main Logo Label is displayed or not

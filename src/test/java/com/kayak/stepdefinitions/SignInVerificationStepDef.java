@@ -15,6 +15,7 @@ import java.util.Map;
 public class SignInVerificationStepDef {
 
     MainPage mainPage = new MainPage();
+
     @Given("The user to navigated successfully to Kayak Main page")
     public void the_user_to_navigated_successfully_to_kayak_main_page() {
         Driver.getDriver().get("https://www.kayak.com/");
@@ -22,16 +23,18 @@ public class SignInVerificationStepDef {
 
     @When("The user click on Sign in section in the Main page")
     public void the_user_click_on_sign_in_section_in_the_main_page() {
-mainPage.clickToSignInFromTheSection();
+
+        mainPage.clickToSignInFromTheSection();
     }
 
     @Then("The user should be able to verify sign boxes displayed")
     public void the_user_should_be_able_to_verify_sign_boxes_displayed(DataTable dataTable) {
         List<String> expectedBoxes = dataTable.asList();
         List<String> actualBoxes = new ArrayList<>();
+
         actualBoxes.add(mainPage.getContinueWithEmailSignIn());
-        actualBoxes.add(mainPage.getAppleSignIn());
         actualBoxes.add(mainPage.getGoogleSignIn());
+        actualBoxes.add(mainPage.getAppleSignIn());
         Assert.assertEquals(expectedBoxes,actualBoxes);
 
             }

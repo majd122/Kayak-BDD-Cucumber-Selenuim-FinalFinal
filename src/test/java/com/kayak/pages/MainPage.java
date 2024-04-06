@@ -4,6 +4,7 @@ import com.kayak.utilities.Driver;
 import com.kayak.utilities.SeleniumUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -44,6 +45,9 @@ public class MainPage {
     @FindBy(xpath = "//div[@class='dJtn dJtn-expanded dJtn-mod-variant-accordion'and .='Sign in']")
     WebElement signInSection;
 
+    @FindBy(xpath = "//div[@class='common-authentication-react-AuthenticationDialog authentication--dialog unified-login unified-login']")
+    WebElement getSignInBox;
+////div[@class='common-authentication-react-AuthenticationDialog authentication--dialog unified-login unified-login']
 
 
     @FindBy(xpath = "//div[@class='Iqt3-button-content' and .='Continue with email']")
@@ -53,6 +57,7 @@ public class MainPage {
 
 @FindBy(xpath = "//div[@class='social-button-short-text' and .='Apple']")
 WebElement appleButton;
+
 
     //================================== > Methods < ===========================
 
@@ -73,7 +78,8 @@ WebElement appleButton;
      */
     public void scrollToBookingElement() {
         logger.info("scroll down to the end of the web page ");
-        SeleniumUtils.scrollToElementUsingJavaScriptExecutor(bookingEle);
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        js.executeScript("window.scrollBy(0,-350)", "");
 
     }
     /**
@@ -133,11 +139,15 @@ WebElement appleButton;
     }
     public void clickTOSignIn() {
         signInBox.click();
-        SeleniumUtils.waitForElementToBeSelected(continueWithEmailButton);
+
+        SeleniumUtils.waitForVisibilityOfElement(signInBox);
+
     }
     public void clickToSignInFromTheSection(){
             signInSection.click();
-            SeleniumUtils.switchToNewWindow();
+
+           SeleniumUtils.waitForVisibilityOfElement(signInBox);
+
         }
 
     public String getContinueWithEmailSignIn(){
