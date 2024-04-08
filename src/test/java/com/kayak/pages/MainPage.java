@@ -25,6 +25,9 @@ public class MainPage {
     @FindBy(xpath = "//li[@class='FyHn-item FyHn-booking']")
     WebElement bookingEle;
 
+    @FindBy(xpath = "//div[@class='FyHn-inner-wrapper']")
+    WebElement logosField;
+
     @FindBy(xpath = "//li[@class='FyHn-item FyHn-kayak']")
     WebElement kayakEle;
 
@@ -47,16 +50,32 @@ public class MainPage {
 
     @FindBy(xpath = "//div[@class='common-authentication-react-AuthenticationDialog authentication--dialog unified-login unified-login']")
     WebElement getSignInBox;
-////div[@class='common-authentication-react-AuthenticationDialog authentication--dialog unified-login unified-login']
-
-
     @FindBy(xpath = "//div[@class='Iqt3-button-content' and .='Continue with email']")
     WebElement continueWithEmailButton;
     @FindBy(xpath = "//div[@class='social-button-short-text' and .='Google']")
     WebElement googleButton;
 
-@FindBy(xpath = "//div[@class='social-button-short-text' and .='Apple']")
-WebElement appleButton;
+    @FindBy(xpath = "//div[@class='social-button-short-text' and .='Apple']")
+    WebElement appleButton;
+    @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='Stays']")
+    WebElement staysField;
+    @FindBy(xpath = "//div[@class='P4Ui-header']")
+    WebElement staysPageText;
+    @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='Packages']")
+    WebElement packagesField;
+    @FindBy(xpath = "//div[@class='P4Ui-text-content kml-layout snap edges']")
+    WebElement packagesPageText;
+    @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='Cars']")
+    WebElement carsField;
+    @FindBy(xpath = "//div[@class='P4Ui-header']")
+    WebElement carsTextPage;
+    @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='Flights']")
+    WebElement flightsFiled;
+
+    @FindBy(xpath = "//div[@class='keel-container s-t-bp']")
+    WebElement flightsTextPage;
+
+
 
 
     //================================== > Methods < ===========================
@@ -78,90 +97,151 @@ WebElement appleButton;
      */
     public void scrollToBookingElement() {
         logger.info("scroll down to the end of the web page ");
-        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-        js.executeScript("window.scrollBy(0,-350)", "");
+        JavascriptExecutor jse6 = (JavascriptExecutor) Driver.getDriver();
+        jse6.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        SeleniumUtils.waitForVisibilityOfElement(pricelineEle);
+//        }else {
+//            jse6.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+//            SeleniumUtils.waitForVisibilityOfElement(pricelineEle);
+//        }
+
 
     }
+
     /**
      * this is for booking if is displayed or not
+     *
      * @return true or false
      */
-    public boolean isBookingDisplayed() {
+    public String getBookingLogo() {
         logger.info("Checking the booking logo is Displayed");
-        return bookingEle.isDisplayed();
+        return bookingEle.getText();
 
     }
+
     /**
      * this is for kayak  element(not the main logo) is displayed or not
-     * @return true or false
+     *
+     * @return String
      */
-    public boolean isKayakDisplayed() {
+    public String getKayakLogo() {
         logger.info("Checking the kayak logo is Displayed");
-        return kayakEle.isDisplayed();
+        return kayakEle.getText();
     }
+
     /**
      * this is for table element is displayed or not
-     * @return true or false
+     *
+     * @return String
      */
-    public boolean isOpenTableEleDisplayed() {
+    public String getOpenTableLogo() {
         logger.info("Checking the openTable logo is Displayed");
-        return openTableEle.isDisplayed();
+        return openTableEle.getText();
     }
 
     /**
      * price line is displayed or not
-     * @return true or false
+     *
+     * @return String
      */
-    public boolean isPricelineEleDisplayed() {
+    public String getPricelineLogo() {
         logger.info("Checking the priceline logo is Displayed");
-        return pricelineEle.isDisplayed();
+        return pricelineEle.getText();
     }
 
     /**
      * this is for Agoda logo if is displayed on the web,
-     * @return true or false
+     *
+     * @return String
      */
-    public boolean isAgodaDisplayed() {
+    public String getAgodaLogo() {
         logger.info("Checking the Agoda logo is Displayed");
-        return  agodaEle.isDisplayed();
+        return agodaEle.getText();
     }
 
-    public boolean checkTheElements(String elementSection){
+    public boolean checkTheElements(String elementSection) {
         logger.info("Checking the elements at the bottom in the main page");
         Select select = new Select(listOfElements);
-        List<WebElement> filerOfList= select.getOptions();
-        for (WebElement v : filerOfList){
-            if (v.getText().equals(elementSection) && v.isDisplayed()){
+        List<WebElement> filerOfList = select.getOptions();
+        for (WebElement v : filerOfList) {
+            if (v.getText().equals(elementSection) && v.isDisplayed()) {
                 return true;
             }
         }
         return false;
     }
+
     public void clickTOSignIn() {
         signInBox.click();
 
         SeleniumUtils.waitForVisibilityOfElement(signInBox);
 
     }
-    public void clickToSignInFromTheSection(){
-            signInSection.click();
 
-           SeleniumUtils.waitForVisibilityOfElement(signInBox);
+    public void clickToSignInFromTheSection() {
+        signInSection.click();
 
-        }
-
-    public String getContinueWithEmailSignIn(){
-        logger.info("getting the text for Continue with email  ");
-       return continueWithEmailButton.getText();
+        SeleniumUtils.waitForVisibilityOfElement(signInBox);
 
     }
+
+    public String getContinueWithEmailSignIn() {
+        logger.info("getting the text for Continue with email  ");
+        return continueWithEmailButton.getText();
+
+    }
+
     public String getGoogleSignIn() {
         logger.info("Getting the text for Google");
         return googleButton.getText();
     }
+
     public String getAppleSignIn() {
         logger.info("getting the text for apple ");
         return appleButton.getText();
     }
 
+    public void clickOnStaysButton() {
+        logger.info("click on Stays Section");
+        staysField.click();
+    }
+
+    public boolean isStaysTextDisplayed() {
+        logger.info("get the text inside the Stays Page");
+        return staysPageText.isDisplayed();
+    }
+
+    public void clickOnPackagesButton() {
+        logger.info("click on Packages button Section");
+        packagesField.click();
+    }
+
+    public boolean isPackagesTextDisplayed() {
+        logger.info("get the text inside the Packages Page");
+        return packagesPageText.isDisplayed();
+    }
+
+
+    public void clickOnCarsButton() {
+        logger.info("click on Packages button Section");
+  carsField.click();
+    }
+
+    public boolean isCarsTextDisplayed() {
+        logger.info("get the text inside the Packages Page");
+        return carsTextPage.isDisplayed();
+    }
+
+    public void clickOnFlightsButton() {
+        logger.info("click on Flights button Section");
+        flightsFiled.click();
+    }
+
+    public boolean isFlightsTextDisplayed() {
+        logger.info("get the text inside the Flights Page");
+        return flightsTextPage.isDisplayed();
+    }
+
+
 }
+

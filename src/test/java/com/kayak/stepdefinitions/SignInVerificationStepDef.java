@@ -31,7 +31,6 @@ public class SignInVerificationStepDef {
     public void the_user_should_be_able_to_verify_sign_boxes_displayed(DataTable dataTable) {
         List<String> expectedBoxes = dataTable.asList();
         List<String> actualBoxes = new ArrayList<>();
-
         actualBoxes.add(mainPage.getContinueWithEmailSignIn());
         actualBoxes.add(mainPage.getGoogleSignIn());
         actualBoxes.add(mainPage.getAppleSignIn());

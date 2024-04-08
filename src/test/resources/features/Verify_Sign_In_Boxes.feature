@@ -1,6 +1,6 @@
 
 Feature: Sign in to Kayak
-  The User I should be able to see the sign in boxes displayed
+  The User should be able to see the sign in boxes displayed
   Scenario: Verify Sign in boxes is Displayed
     Given The user to navigated successfully to Kayak Main page
     When The user click on Sign in section in the Main page

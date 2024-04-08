@@ -1,5 +1,5 @@
-@run
-Feature: Verify Booking Holding label on the main page
+
+Feature: Verify Booking Holding label
   The user I should be able to see the logo displayed in the main page
 
 
