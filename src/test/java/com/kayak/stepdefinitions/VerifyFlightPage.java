@@ -12,7 +12,7 @@ public class VerifyFlightPage {
     @When("The user click on Flights section")
     public void the_user_click_on_flights_section() {
         mainPage.clickOnFlightsButton();
-
+//
     }
 
     @Then("The user should be able to verify Flights Page text is Displayed")
