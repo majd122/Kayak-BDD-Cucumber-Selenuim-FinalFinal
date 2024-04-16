@@ -19,5 +19,5 @@ import org.junit.runner.RunWith;
        tags="@run",
         dryRun = false
 )
-public class TestRunner {
+public class TestRunner{
 }
