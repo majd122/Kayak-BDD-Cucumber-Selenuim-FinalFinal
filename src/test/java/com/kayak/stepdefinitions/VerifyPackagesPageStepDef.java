@@ -4,7 +4,7 @@ import com.kayak.pages.MainPage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class VerifyPackagesPage {
+public class VerifyPackagesPageStepDef {
     MainPage mainPage = new MainPage();
     @When("The user click on Packages s in the section")
     public void the_user_click_on_packages_s_in_the_section() {

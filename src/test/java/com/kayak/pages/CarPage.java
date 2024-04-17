@@ -14,6 +14,14 @@ public class CarPage {
     @FindBy(xpath = "//div[@class='a7Uc-infix']")
     WebElement searchButtonField;
 
+    @FindBy(xpath = "//div[@class='KzeV-button']")
+    WebElement seeAllButton;
+
+@FindBy(xpath = "//div[@class='c15uy c15uy-pres-simple c15uy-mod-variant-default']")
+    WebElement sortByDropBox;
+    @FindBy(xpath = "//li[@id='score_b']")
+    WebElement bestScoreBox;
+
 
 //------------------------------------methods--------------------
 

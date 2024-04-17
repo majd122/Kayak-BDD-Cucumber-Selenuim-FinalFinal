@@ -1,13 +1,11 @@
 package com.kayak.stepdefinitions;
 
 import com.kayak.pages.MainPage;
-import io.cucumber.gherkin.Main;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.cucumber.java.it.Ma;
 import org.junit.Assert;
 
-public class VerifyFlightPage {
+public class VerifyFlightPageStepDef {
     MainPage mainPage = new MainPage();
     @When("The user click on Flights section")
     public void the_user_click_on_flights_section() {
