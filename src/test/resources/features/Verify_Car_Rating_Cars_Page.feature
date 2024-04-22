@@ -1,3 +1,4 @@
+@run
 Feature: Verify car rating in cars page
 Scenario: Verify Best score Rating in the cars page
   Given User is navigated successfully to Kayak Main page

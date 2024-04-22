@@ -75,7 +75,8 @@ public class MainPage {
     @FindBy(xpath = "//div[@class='keel-container s-t-bp']")
     WebElement flightsTextPage;
 
-
+    @FindBy(xpath = "//a[@class='dJtn dJtn-active dJtn-collapsed dJtn-mod-variant-accordion']")
+    WebElement kayakForBusinessField;
 
 
     //================================== > Methods < ===========================
