@@ -75,8 +75,11 @@ public class MainPage {
     @FindBy(xpath = "//div[@class='keel-container s-t-bp']")
     WebElement flightsTextPage;
 
-    @FindBy(xpath = "//a[@class='dJtn dJtn-active dJtn-collapsed dJtn-mod-variant-accordion']")
+
+    @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='KAYAK for Business']")
     WebElement kayakForBusinessField;
+
+
 
 
     //================================== > Methods < ===========================
@@ -241,6 +244,9 @@ public class MainPage {
     public boolean isFlightsTextDisplayed() {
         logger.info("get the text inside the Flights Page");
         return flightsTextPage.isDisplayed();
+    }
+    public void clickOnKayakBusinessButton(){
+        kayakForBusinessField.click();
     }
 
 
