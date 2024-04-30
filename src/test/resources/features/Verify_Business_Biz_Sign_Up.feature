@@ -1,4 +1,4 @@
-@run
+
 Feature: Verify Biz Sign up now
   User should be able too see Biz Free Sign up now is Displayed
   Scenario: Verify Contact us is displayed

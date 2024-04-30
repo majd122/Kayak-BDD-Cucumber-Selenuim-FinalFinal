@@ -6,6 +6,7 @@ import io.cucumber.java.eo.Se;
 import org.apache.commons.logging.Log;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,7 +29,7 @@ public CarPage(){
     @FindBy(xpath = "//div[@class='KzeV-button']")
     WebElement seeAllButton;
 
-@FindBy(xpath = "//div[@class='c15uy c15uy-pres-simple c15uy-mod-variant-default']")
+@FindBy(xpath = "//div[@class='Uqct-title']")
     WebElement sortByDropBox;
     @FindBy(xpath = "//li[@id='score_b']")
     WebElement bestScoreBox;
@@ -48,7 +49,7 @@ public CarPage(){
 
     public void clickOnSeeAllButton(){
     logger.info("Click on See all button");
-        SeleniumUtils.waitForElementToBeSelected(seeAllButton);
+        SeleniumUtils.waitForVisibilityOfElement(seeAllButton);
     SeleniumUtils.scrollToElementUsingJavaScriptExecutor(seeAllButton);
     seeAllButton.click();
 }
@@ -58,7 +59,18 @@ public CarPage(){
      */
     public void clickOnSortByButton(){
         logger.info("Click on the Sort by");
-     sortByDropBox.click();
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        Driver.getDriver().findElement(By.xpath("//div[@class='c15uy c15uy-pres-simple c15uy-mod-variant-default c15uy-mod-active']")).click();
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        sortByDropBox.click();
 
     }
     /**
