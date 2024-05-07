@@ -1,0 +1,219 @@
+2024-04-30T20:24:56,404 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-30T20:24:56,480 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:24:56,481 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:24:56,483 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:25:03,460 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:03,461 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:07,206 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:07,207 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:07,718 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:07,718 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:08,103 [main] INFO  (MainPage.java:230) - click on Packages button Section
+2024-04-30T20:25:10,686 [main] INFO  (CarPage.java:51) - Click on See all button
+2024-04-30T20:25:10,688 [main] INFO  (SeleniumUtils.java:35) - Waiting for an element until its visible
+2024-04-30T20:25:10,689 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {explicitWait} from the property file
+2024-04-30T20:25:10,694 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:10,695 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:26,044 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:26,045 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:26,594 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:25:37,958 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-30T20:25:37,968 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:37,968 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:37,969 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:25:41,934 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:41,935 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:43,770 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:43,772 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:43,817 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:43,818 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:43,842 [main] INFO  (MainPage.java:230) - click on Packages button Section
+2024-04-30T20:25:45,318 [main] INFO  (CarPage.java:51) - Click on See all button
+2024-04-30T20:25:45,321 [main] INFO  (SeleniumUtils.java:35) - Waiting for an element until its visible
+2024-04-30T20:25:45,321 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {explicitWait} from the property file
+2024-04-30T20:25:45,324 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:45,325 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:47,998 [main] INFO  (SeleniumUtils.java:187) - scroll to an element using JS
+2024-04-30T20:25:47,999 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:48,000 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:49,970 [main] INFO  (CarPage.java:61) - Click on the Sort by
+2024-04-30T20:25:53,973 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:53,973 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:54,058 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:25:54,058 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:25:54,683 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:31:44,611 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-30T20:31:44,622 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:31:44,622 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:31:44,623 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:31:48,409 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:31:48,410 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:31:50,271 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:31:50,271 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:31:50,337 [main] INFO  (MainPage.java:103) - scroll down to the end of the web page 
+2024-04-30T20:31:50,338 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:31:50,339 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:31:50,394 [main] INFO  (SeleniumUtils.java:35) - Waiting for an element until its visible
+2024-04-30T20:31:50,395 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {explicitWait} from the property file
+2024-04-30T20:31:50,398 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:31:50,398 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:05,820 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:05,820 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:06,029 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:32:06,285 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:06,285 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:06,285 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:32:08,407 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:08,408 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:10,055 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:10,055 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:10,138 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:10,139 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:12,114 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:12,114 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:12,141 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:12,141 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:12,220 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:32:12,443 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:12,443 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:12,443 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:32:14,556 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:14,556 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:16,256 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:16,256 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:16,365 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:16,365 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:16,414 [main] INFO  (MainPage.java:230) - click on Packages button Section
+2024-04-30T20:32:18,789 [main] INFO  (CarPage.java:51) - Click on See all button
+2024-04-30T20:32:18,790 [main] INFO  (SeleniumUtils.java:35) - Waiting for an element until its visible
+2024-04-30T20:32:18,790 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {explicitWait} from the property file
+2024-04-30T20:32:18,792 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:18,792 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:21,410 [main] INFO  (SeleniumUtils.java:187) - scroll to an element using JS
+2024-04-30T20:32:21,410 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:21,410 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:24,633 [main] INFO  (CarPage.java:61) - Click on the Sort by
+2024-04-30T20:32:28,638 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:28,638 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:28,758 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:28,759 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:29,212 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:32:29,461 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:29,461 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:29,461 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:32:31,552 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:31,552 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:33,302 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:33,303 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:33,350 [main] INFO  (MainPage.java:230) - click on Packages button Section
+2024-04-30T20:32:34,750 [main] INFO  (MainPage.java:235) - get the text inside the Packages Page
+2024-04-30T20:32:35,194 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:32:35,374 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:35,375 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:35,375 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:32:37,433 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:37,433 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:39,120 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:39,120 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:39,168 [main] INFO  (MainPage.java:240) - click on Flights button Section
+2024-04-30T20:32:40,310 [main] INFO  (MainPage.java:245) - get the text inside the Flights Page
+2024-04-30T20:32:40,471 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:40,471 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:41,377 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:32:41,610 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:41,610 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:41,611 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:32:43,506 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:43,513 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:45,121 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:45,122 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:45,163 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:45,164 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:46,928 [main] INFO  (BusinessPage.java:36) - Check the Ui if the element is enabled
+2024-04-30T20:32:46,997 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:32:47,170 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:47,170 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:47,171 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:32:49,316 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:49,316 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:51,061 [main] INFO  (MainPage.java:94) - Checking if the Main Logo Label is displayed or not
+2024-04-30T20:32:51,194 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:32:51,348 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:51,349 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:51,349 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:32:53,422 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:53,423 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:55,129 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:55,130 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:55,194 [main] INFO  (MainPage.java:219) - click on Packages button Section
+2024-04-30T20:32:57,612 [main] INFO  (MainPage.java:224) - get the text inside the Packages Page
+2024-04-30T20:32:57,842 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:32:58,069 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:58,070 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:32:58,070 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:32:59,987 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:32:59,989 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:33:02,025 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:33:02,026 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:33:02,351 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T20:33:02,525 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:33:02,525 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:33:02,525 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T20:33:04,426 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:33:04,429 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:33:06,020 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T20:33:06,021 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T20:33:06,036 [main] INFO  (MainPage.java:209) - click on Stays Section
+2024-04-30T20:33:07,665 [main] INFO  (MainPage.java:214) - get the text inside the Stays Page
+2024-04-30T20:33:08,269 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T23:02:01,154 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-30T23:02:01,164 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:01,165 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:01,166 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T23:02:07,389 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:07,389 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:09,377 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:09,378 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:09,439 [main] INFO  (MainPage.java:103) - scroll down to the end of the web page 
+2024-04-30T23:02:09,440 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:09,440 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:09,492 [main] INFO  (SeleniumUtils.java:35) - Waiting for an element until its visible
+2024-04-30T23:02:09,492 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {explicitWait} from the property file
+2024-04-30T23:02:09,496 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:09,496 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:24,790 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:24,790 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:25,101 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T23:02:25,426 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:25,427 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:25,427 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T23:02:28,306 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:28,306 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:30,031 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:30,032 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:30,090 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:30,090 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:31,816 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:31,817 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:31,861 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:31,861 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:31,932 [main] INFO  (Driver.java:71) - Closing the browser
+2024-04-30T23:02:32,143 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:32,144 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:32,144 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-04-30T23:02:34,801 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:34,802 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:36,782 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:36,783 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:36,861 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:36,862 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:36,895 [main] INFO  (MainPage.java:230) - click on Packages button Section
+2024-04-30T23:02:39,178 [main] INFO  (CarPage.java:51) - Click on See all button
+2024-04-30T23:02:39,179 [main] INFO  (SeleniumUtils.java:35) - Waiting for an element until its visible
+2024-04-30T23:02:39,184 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {explicitWait} from the property file
+2024-04-30T23:02:39,187 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:39,188 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:59,427 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-04-30T23:02:59,441 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-04-30T23:02:59,442 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-04-30T23:02:59,443 [main] INFO  (Driver.java:57) - Starting a Chrome browser

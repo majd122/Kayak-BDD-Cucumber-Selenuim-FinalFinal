@@ -1,0 +1,80 @@
+2024-05-06T15:15:22,281 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-05-06T15:15:22,294 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T15:15:22,294 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T15:15:22,295 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-05-06T15:15:26,579 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T15:15:26,579 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T15:15:27,526 [main] INFO  (Driver.java:71) - Closing the browser
+2024-05-06T15:22:12,291 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-05-06T15:22:12,298 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T15:22:12,298 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T15:22:12,298 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-05-06T15:22:15,538 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T15:22:15,539 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T15:22:17,332 [main] INFO  (Driver.java:71) - Closing the browser
+2024-05-06T21:53:17,802 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-05-06T21:53:17,809 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T21:53:17,809 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T21:53:17,810 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-05-06T21:53:21,797 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T21:53:21,798 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T21:53:23,606 [main] INFO  (Driver.java:71) - Closing the browser
+2024-05-06T23:20:37,091 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-05-06T23:20:37,100 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:20:37,100 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:20:37,100 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-05-06T23:20:41,547 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:20:41,547 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:20:43,459 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:20:43,460 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:20:44,431 [main] INFO  (Driver.java:71) - Closing the browser
+2024-05-06T23:21:58,824 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-05-06T23:21:58,832 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:21:58,833 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:21:58,833 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-05-06T23:22:02,773 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:22:02,774 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:22:04,557 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:22:04,559 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:22:04,644 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:22:04,644 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:22:06,489 [main] INFO  (AskKayakPage.java:34) - Entering inputhotels into the search bar field
+2024-05-06T23:22:06,777 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:22:06,778 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:22:07,276 [main] INFO  (Driver.java:71) - Closing the browser
+2024-05-06T23:23:07,141 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-05-06T23:23:07,152 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:23:07,152 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:23:07,153 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-05-06T23:23:11,607 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:23:11,607 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:23:13,412 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:23:13,412 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:23:13,487 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:23:13,488 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:23:15,356 [main] INFO  (AskKayakPage.java:35) - Entering inputhotels into the search bar field
+2024-05-06T23:23:15,359 [main] INFO  (SeleniumUtils.java:35) - Waiting for an element until its visible
+2024-05-06T23:23:15,359 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {explicitWait} from the property file
+2024-05-06T23:23:15,364 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:23:15,365 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:23:30,660 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:23:30,661 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:23:31,025 [main] INFO  (Driver.java:71) - Closing the browser
+2024-05-06T23:25:09,927 [main] INFO  (ConfigurationReader.java:19) - Loading the property file...
+2024-05-06T23:25:09,936 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:25:09,937 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:25:09,937 [main] INFO  (Driver.java:57) - Starting a Chrome browser
+2024-05-06T23:25:14,069 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:25:14,070 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:25:15,964 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:25:15,964 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:25:16,004 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:25:16,005 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:25:17,938 [main] INFO  (AskKayakPage.java:35) - Entering inputhotels into the search bar field
+2024-05-06T23:25:17,941 [main] INFO  (SeleniumUtils.java:35) - Waiting for an element until its visible
+2024-05-06T23:25:17,942 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {explicitWait} from the property file
+2024-05-06T23:25:17,948 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:25:17,948 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:25:18,480 [main] INFO  (ConfigurationReader.java:41) - Getting the property key {browserType} from the property file
+2024-05-06T23:25:18,480 [main] INFO  (Driver.java:29) - Getting a driver instance
+2024-05-06T23:25:18,995 [main] INFO  (Driver.java:71) - Closing the browser
