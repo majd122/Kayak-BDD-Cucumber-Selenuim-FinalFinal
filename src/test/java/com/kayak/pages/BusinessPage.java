@@ -22,11 +22,18 @@ WebElement signUpField;
 @FindBy(xpath="//div[@class='c508I-tier']//div[@class='RxNS-button-content'][normalize-space()='Get early access']")
 WebElement getEarlyAccessField;
 
+@FindBy(xpath="/html/body/div[2]/div/div[1]/div[1]/div[1]/div[2]/div/section/div[1]/div/div[2]/div/div[3]/div/div[1]")
+WebElement bizPlusField;
+
 
 
 
 
    // -------------------Method--------------------
+    public boolean isBuzPlusIsDisplayed(){
+        return bizPlusField.isDisplayed();
+
+    }
 
     /**checking the ui if the contact button is enabled or not
      * boolean method

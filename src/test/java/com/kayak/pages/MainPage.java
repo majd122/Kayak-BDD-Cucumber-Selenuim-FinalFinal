@@ -4,6 +4,8 @@ import com.kayak.utilities.Driver;
 import com.kayak.utilities.SeleniumUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -45,7 +47,7 @@ public class MainPage {
 
     @FindBy(xpath = "//div[@class='Iqt3-button-content' and .='Sign in']")
     WebElement signInBox;
-    @FindBy(xpath = "//div[@class='dJtn dJtn-expanded dJtn-mod-variant-accordion'and .='Sign in']")
+    @FindBy(xpath = "//span[@class='J-sA-label']")
     WebElement signInSection;
 
     @FindBy(xpath = "//div[@class='common-authentication-react-AuthenticationDialog authentication--dialog unified-login unified-login']")
@@ -72,18 +74,26 @@ public class MainPage {
     @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='Flights']")
     WebElement flightsFiled;
 
-    @FindBy(xpath = "//div[@class='keel-container s-t-bp']")
+    @FindBy(xpath = "//div[@class='P4Ui-title-wrapper']")
     WebElement flightsTextPage;
 
 
     @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='KAYAK for Business']")
     WebElement kayakForBusinessField;
+    @FindBy(xpath = "//div[@class='RrEN ncEv dJtn-menu-item-icon']")
+    WebElement askKayakField;
+
+
+    @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='Flight Tracker']")
+    WebElement flightTrackerField;
 
 
 
 
     //================================== > Methods < ===========================
-
+public void clickOnFlightTracker(){
+    flightTrackerField.click();
+}
 
     /**
      * so this one to return if the logo is displayed
@@ -163,6 +173,13 @@ public class MainPage {
         return agodaEle.getText();
     }
 
+    /**
+     *
+     * checking the elements from the ui
+     * not sure, may not use it but there in case
+     * @param elementSection takes String Value
+     * @return true or false
+     */
     public boolean checkTheElements(String elementSection) {
         logger.info("Checking the elements at the bottom in the main page");
         Select select = new Select(listOfElements);
@@ -175,34 +192,43 @@ public class MainPage {
         return false;
     }
 
+    /**
+     * click to sign in box
+     */
+
     public void clickTOSignIn() {
-        signInBox.click();
-
-        SeleniumUtils.waitForVisibilityOfElement(signInBox);
-
+        signInSection.click();
     }
+
+    /**
+     *
+     */
 
     public void clickToSignInFromTheSection() {
+
         signInSection.click();
 
-        SeleniumUtils.waitForVisibilityOfElement(signInBox);
-
     }
 
-    public String getContinueWithEmailSignIn() {
+
+    /** checking if we continue with email box is displayed
+     *
+     * @return boolean true or false
+     */
+    public boolean isContinueWithEmailSignInDisplayed() {
         logger.info("getting the text for Continue with email  ");
-        return continueWithEmailButton.getText();
+        return continueWithEmailButton.isDisplayed();
 
     }
 
-    public String getGoogleSignIn() {
+    public boolean isGoogleSignInDisplayed() {
         logger.info("Getting the text for Google");
-        return googleButton.getText();
+        return googleButton.isDisplayed();
     }
 
-    public String getAppleSignIn() {
+    public boolean isAppleSignInDisplayed() {
         logger.info("getting the text for apple ");
-        return appleButton.getText();
+        return appleButton.isDisplayed();
     }
 
     public void clickOnStaysButton() {
@@ -248,7 +274,12 @@ public class MainPage {
     public void clickOnKayakBusinessButton(){
         kayakForBusinessField.click();
     }
-
-
+/**
+ * clicking on Ask Kayak section on the lift side of the UI
+ * it will take you to ask kayak page
+ */
+public void clickOnAskKayakMainPage(){
+    askKayakField.click();
+}
 }
 

@@ -29,7 +29,7 @@ public CarPage(){
     @FindBy(xpath = "//div[@class='KzeV-button']")
     WebElement seeAllButton;
 
-@FindBy(xpath = "//div[@class='Uqct-title']")
+@FindBy(xpath = "//div[@class='c15uy c15uy-pres-simple c15uy-mod-variant-default c15uy-mod-active']")
     WebElement sortByDropBox;
     @FindBy(xpath = "//li[@id='score_b']")
     WebElement bestScoreBox;
@@ -59,17 +59,8 @@ public CarPage(){
      */
     public void clickOnSortByButton(){
         logger.info("Click on the Sort by");
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-        Driver.getDriver().findElement(By.xpath("//div[@class='c15uy c15uy-pres-simple c15uy-mod-variant-default c15uy-mod-active']")).click();
-        try {
-            Thread.sleep(4000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
+       // Driver.getDriver().findElement(By.xpath("//div[@class='c15uy c15uy-pres-simple c15uy-mod-variant-default c15uy-mod-active']")).click();
         sortByDropBox.click();
 
     }
