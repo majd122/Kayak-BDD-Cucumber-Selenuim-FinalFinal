@@ -1,4 +1,4 @@
-@new
+
 Feature: Verify Flights section
   The user should be able to see the Flights page when user click on Flights button
   Scenario: Verify Flights page is Displayed

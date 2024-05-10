@@ -2,6 +2,7 @@ package com.kayak.pages;
 
 import com.kayak.utilities.Driver;
 import com.kayak.utilities.SeleniumUtils;
+import io.cucumber.java.eo.Se;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Alert;
@@ -27,8 +28,8 @@ public class MainPage {
     @FindBy(xpath = "//li[@class='FyHn-item FyHn-booking']")
     WebElement bookingEle;
 
-    @FindBy(xpath = "//div[@class='FyHn-inner-wrapper']")
-    WebElement logosField;
+   // @FindBy(xpath = "//div[@class='FyHn-inner-wrapper']")
+   // WebElement logosField;
 
     @FindBy(xpath = "//li[@class='FyHn-item FyHn-kayak']")
     WebElement kayakEle;
@@ -87,12 +88,33 @@ public class MainPage {
     @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='Flight Tracker']")
     WebElement flightTrackerField;
 
+    @FindBy(xpath = "//div[@class='dJtn-menu-item-title' and .='Feedback']")
+    WebElement feedbackButtonField;
+    @FindBy(xpath = "//a[@class='powered-by']")
+    WebElement getFeedBackLogoField;
+
 
 
 
     //================================== > Methods < ===========================
-public void clickOnFlightTracker(){
-    flightTrackerField.click();
+
+
+    /**
+     *
+     * click on FeedBack button on main page
+     */
+    public void clickOnFeedbackButton(){
+    feedbackButtonField.click();
+}
+
+    /** this method check if the logo is present on the ui
+     * needs to handle iframe in this method using selenium Utils
+     * @return true false
+     */
+    public boolean isPoweredByGetFeedbackDisplayed(){
+logger.info("is this element displayed checking for Feedback  Powered By : feedback");
+SeleniumUtils.waitForVisibilityOfElement(getFeedBackLogoField);
+        return getFeedBackLogoField.isDisplayed();
 }
 
     /**
@@ -102,6 +124,7 @@ public void clickOnFlightTracker(){
      */
     public boolean isMainLogoDisplayed() {
         logger.info("Checking if the Main Logo Label is displayed or not");
+
         return kayakLogo.isDisplayed();
     }
 
@@ -197,6 +220,7 @@ public void clickOnFlightTracker(){
      */
 
     public void clickTOSignIn() {
+        logger.info("click on sign in box ");
         signInSection.click();
     }
 
@@ -205,7 +229,7 @@ public void clickOnFlightTracker(){
      */
 
     public void clickToSignInFromTheSection() {
-
+logger.info("click on sigh in from the section ");
         signInSection.click();
 
     }
@@ -220,58 +244,99 @@ public void clickOnFlightTracker(){
         return continueWithEmailButton.isDisplayed();
 
     }
-
+    /** checking if we continue with Google box is displayed
+     *
+     * @return boolean true or false
+     */
     public boolean isGoogleSignInDisplayed() {
         logger.info("Getting the text for Google");
         return googleButton.isDisplayed();
     }
-
+    /** checking if we continue with apple box is displayed
+     *
+     * @return boolean true or false
+     */
     public boolean isAppleSignInDisplayed() {
         logger.info("getting the text for apple ");
         return appleButton.isDisplayed();
     }
+    /** click on stay button
 
+     */
     public void clickOnStaysButton() {
         logger.info("click on Stays Section");
         staysField.click();
     }
+    /** checking if stays is displayed or not on the ui
+     *
+     * @return boolean true or false
+     */
 
     public boolean isStaysTextDisplayed() {
         logger.info("get the text inside the Stays Page");
         return staysPageText.isDisplayed();
     }
 
+    /**click on package button on the section
+     */
     public void clickOnPackagesButton() {
         logger.info("click on Packages button Section");
         packagesField.click();
     }
+    /** checking  package text on the ui
+     * @return boolean true or false
+     */
 
     public boolean isPackagesTextDisplayed() {
         logger.info("get the text inside the Packages Page");
         return packagesPageText.isDisplayed();
     }
 
+    /**
+     *
+     * click on the cars button inside the section
+     */
 
     public void clickOnCarsButton() {
         logger.info("click on Packages button Section");
   carsField.click();
     }
 
+    /** checking the cqrs text from the ui if is displayed or not
+     *
+     * @return boolean true or false
+     */
+
     public boolean isCarsTextDisplayed() {
         logger.info("get the text inside the Packages Page");
         return carsTextPage.isDisplayed();
     }
 
+    /**
+     * click on flight button present on the section side
+     */
+
     public void clickOnFlightsButton() {
         logger.info("click on Flights button Section");
         flightsFiled.click();
     }
+    /** checking if flight text displayed omn the flight page
+     *
+     * @return boolean true or false
+     */
 
     public boolean isFlightsTextDisplayed() {
         logger.info("get the text inside the Flights Page");
         return flightsTextPage.isDisplayed();
     }
+
+    /**
+     *
+     * click button kayak business it is available on the main page inside the section side
+     */
     public void clickOnKayakBusinessButton(){
+
+        logger.info("click on kayak for business ");
         kayakForBusinessField.click();
     }
 /**
@@ -279,6 +344,8 @@ public void clickOnFlightTracker(){
  * it will take you to ask kayak page
  */
 public void clickOnAskKayakMainPage(){
+    logger.info("Click on ask Kayak ");
+
     askKayakField.click();
 }
 }

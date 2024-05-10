@@ -25,8 +25,7 @@ public class SignInVerificationStepDef {
     @When("The user click on Sign in section in the Main page")
     public void the_user_click_on_sign_in_section_in_the_main_page() {
 
-        mainPage.clickTOSignIn();
-    }
+        mainPage.clickTOSignIn();}
 
     @Then("The user should be able to verify sign boxes displayed")
     public void the_user_should_be_able_to_verify_sign_boxes_displayed(List<String> expectedResult) {

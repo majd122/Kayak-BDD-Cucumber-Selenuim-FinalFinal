@@ -1,4 +1,4 @@
-@a
+
 Feature: Verify Biz+
   User should be able too Verify Biz+ 24 is Displayed
   Scenario: Verify Biz+ is displayed

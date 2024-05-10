@@ -3,6 +3,7 @@ package com.kayak.stepdefinitions;
 import com.kayak.pages.MainPage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 
 public class VerifyPackagesPageStepDef {
     MainPage mainPage = new MainPage();
@@ -13,7 +14,7 @@ mainPage.clickOnPackagesButton();
 
     @Then("The user should be able to verify Packages Page text is Displayed")
     public void the_user_should_be_able_to_verify_packages_page_text_is_displayed() {
-        mainPage.isPackagesTextDisplayed();
+        Assert.assertTrue(mainPage.isPackagesTextDisplayed());
 
     }
 

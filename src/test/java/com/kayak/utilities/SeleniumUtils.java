@@ -48,6 +48,49 @@ public class SeleniumUtils {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(secondToWaitFor));
         wait.until(ExpectedConditions.elementToBeSelected(elementToWaitFor));
     }
+    /**
+     * getTextValueOfElement JS By text content
+     *
+     * @param element
+     * @param driver
+     * @return
+     */
+    public String getTextValueOfElement(WebElement element, WebDriver driver) {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        return jse.executeScript("return arguments[0].value", element).toString();
+    }
+
+    	/** getTextValueOfElement JS By text content
+         * * @param element
+	 * @param driver
+	 * @return
+             */
+    public boolean isElementCheckedOrSelected(WebElement element, WebDriver driver) {
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        if (jse.executeScript("return arguments[0].checked", element).toString().contains("true"))
+            return true;
+
+        return false;
+    }
+    /**
+     * clearElementTextValueByActions
+     * @param element
+     * @param driver
+     */
+    public void clearElementTextValueByActions(WebElement element, WebDriver driver) {
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element);
+       // executeJavaScript("select()", element, driver);
+        actions.sendKeys(Keys.DELETE);
+        actions.build().perform();
+    }
+
+    /**
+     * Refresh the page
+     */
+    public void refreshCurrentPage() {
+        Driver.driver.navigate().refresh();
+    }
 
     /**
      * This method will wait for an element until its visible using Fluent Wait
@@ -165,7 +208,9 @@ public class SeleniumUtils {
      * highlight on element using javascriptExecutor
      * @param element the element we want to highlight
      */
-    private static void highlightElement(WebElement element) {
+
+
+public static void highlightElement(WebElement element) {
         logger.info("highlight on element using JS");
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         // Execute JavaScript code to apply a border and change background color

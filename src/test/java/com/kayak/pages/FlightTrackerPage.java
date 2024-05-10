@@ -14,7 +14,7 @@ public class FlightTrackerPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath ="//input[@id='S3tz-flightNumberTrackForm-airline']")
+    @FindBy(xpath ="//input[@id='mWa2-flightNumberTrackForm-airlineCode']")
     WebElement airlineField;
     @FindBy(xpath = "//input[@id='c1I5c-flightNumberTrackForm-flight-number']")
     WebElement flightNumberField;
@@ -31,6 +31,8 @@ public class FlightTrackerPage {
      */
     public void addAirline(String input){
         logger.info("add string to file up the airline box"+input);
+        SeleniumUtils.switchToNewWindow();
+        SeleniumUtils.highlightElement(airlineField);
         airlineField.sendKeys(input);
     }
     /**

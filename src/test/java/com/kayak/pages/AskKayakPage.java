@@ -33,7 +33,8 @@ public class AskKayakPage {
      */
     public void addTextToTheSearchBar(String input){
       logger.info("Entering input"+input+" into the search bar field");
-      SeleniumUtils.clickElementWithJavaScriptExecutor(kayakSearchField);
+      SeleniumUtils.highlightElement(kayakSearchField);
+    //  SeleniumUtils.clickElementWithJavaScriptExecutor(kayakSearchField);
       kayakSearchField.sendKeys();
     }
     /**

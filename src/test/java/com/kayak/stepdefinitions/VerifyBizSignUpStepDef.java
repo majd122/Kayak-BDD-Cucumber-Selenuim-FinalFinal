@@ -8,7 +8,6 @@ import org.junit.Ignore;
 
 public class VerifyBizSignUpStepDef {
 
-    MainPage mainPage= new MainPage();
     BusinessPage businessPage= new BusinessPage();
 
     
